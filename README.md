@@ -80,7 +80,8 @@ Asegúrate de que el backend esté en ejecución (uvicorn main:app --reload)
 
 Abre el archivo frontend/index.html en tu navegador
 
-Pregunta lo que quieras sobre Python 😄
+Pregunta lo que quieras del tema especifico
+
 ```
 ---
 
