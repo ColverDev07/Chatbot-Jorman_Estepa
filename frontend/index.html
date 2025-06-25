@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistente Virtual Estudiantil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <img src="./assets/python-logo.png" alt="Estudiante" class="icon">
+      <div>
+        <h1>Asistente Virtual Estudiantil</h1>
+        <p class="subtitle">Tu compañero para el aprendizaje en línea</p>
+      </div>
+    </header>
+
+    <div id="chat-box"></div>
+
+    <div class="suggestions">
+      <button class="suggestion-btn" type="button">¿Cuándo es la próxima entrega?</button>
+      <button class="suggestion-btn" type="button">Explícame arrays en JS</button>
+      <button class="suggestion-btn" type="button">¿Cómo contacto al profesor?</button>
+    </div>
+
+    <form id="chat-form">
+      <input 
+        type="text" 
+        id="user-input" 
+        placeholder="¿En qué puedo ayudarte con tus clases virtuales?" 
+        required 
+      />
+      <button type="submit">Enviar</button>
+    </form>
+    <footer class="chat-footer">
+      <span>Hecho con ❤️ para estudiantes</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
