@@ -84,11 +84,3 @@ Pregunta lo que quieras sobre Python 😄
 ```
 ---
 
-👤 Autor:
-Desarrollado por Ing. Cristian Díaz
-
----
-
-<p align="center">
-  <img width="300" src="https://i.imgur.com/YYf2LgH.png">
-</p>
